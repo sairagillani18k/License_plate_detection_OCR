@@ -4,7 +4,7 @@ Vehicles' license plates are like their identities. In many situations, keeping 
 
 **Detecting  the plates**
 
-To make the system "see" and read the license plate when a vehicle passes through the camera's field of view, first, the Yolov8 model detects the license plate, captures an image of it, and passes it to the next module of the project, which then proceeds to decipher the characters on the plate. The Yolov8 model is trained on open-source data acquired from Roboflow.
+To make the system "see" and read the license plate when a vehicle passes through the camera's field of view, the Yolov8 model detects the license plate, captures an image of it, and passes it to the next module of the project, which then proceeds to decipher the characters on the plate. The Yolov8 model is trained on open-source data acquired from Roboflow.
 
 **Cracking the License Plate Code: Optical Character Recognition (OCR)**
 
